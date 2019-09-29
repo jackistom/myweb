@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Title}}</title>
+    <link href="/static/css/blogsheet.css" rel="stylesheet">
+    <link href="/static/css/lib/highlight.css" rel="stylesheet">
+</head>
+<body>
+
+{{template "nav.html" .}}
+
+<div id="aboutme">
+    <div>
+        <img src="https://s2.ax1x.com/2019/09/27/uKsWKH.jpg">
+
+        <div id="myt">
+            <p class="myp">
+                <a href="http://{{.wechat}}">{{.wechat}}</a>
+            </p>
+            <p class="myp">
+                <a href="http://{{.qq}}">{{.qq}}</a>
+            </p>
+            <p class="myp">
+                <a href="http://{{.tel}}">{{.tel}}</a>
+            </p>
+        </div>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>
