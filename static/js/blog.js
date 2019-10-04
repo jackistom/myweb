@@ -18,17 +18,17 @@ $(document).ready(function () {
         },
         messages: {
             username: {
-                required: "请输入用户名",
-                rangelength: "用户名必须是5-10位"
+                required: "PLEASE ENTER A USER NAME",
+                rangelength:"It has to be 5 - 10."
             },
             password: {
-                required: "请输入密码",
-                rangelength: "密码必须是5-10位"
+                required: "ENTER YOUR PIN",
+                rangelength: "It has to be 5 - 10."
             },
             repassword: {
-                required: "请确认密码",
-                rangelength: "密码必须是5-10位",
-                equalTo: "两次输入的密码必须相等"
+                required: "PLEASE COMFIRM YOUR PIN",
+                rangelength: "It has to be 5 - 10.",
+                equalTo: "TWO PASSWORDS MUST BE EQUAL"
             }
         },
         submitHandler: function (form) {
@@ -68,12 +68,12 @@ $(document).ready(function () {
         },
         messages: {
             username: {
-                required: "请输入用户名",
-                rangelength: "用户名必须是5-10位"
+                required: "PLEASE ENTER A USER NAME",
+                rangelength: "It has to be 5 - 10."
             },
             password: {
-                required: "请输入密码",
-                rangelength: "密码必须是5-10位"
+                required: "ENTER YOUR PIN",
+                rangelength: "It has to be 5 - 10."
             }
         },
         submitHandler: function (form) {

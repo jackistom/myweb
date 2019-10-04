@@ -20,14 +20,14 @@ body{
 
 
 .global-color{
-    color: #72BCB5;
+    color: #31708f;
 }
 
 /*导航-------------------------------------------------------------------------------------------------------*/
 #nav{
     display: flex;
     justify-content: space-between;
-    background-color: #72BCB5;
+    background-color: #31708f;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -64,7 +64,7 @@ body{
     text-align: right;
 }
 .home-block-item-udpate>a{
-    background-color: #72BCB5;
+    background-color: #31708f;
     padding: 5px 20px;
     border-radius: 10px;
     margin-top: 5px;
@@ -120,7 +120,7 @@ body{
     font-size: 0px;
 }
 .album-item{
-    border: 1px solid #72BCB5;
+    border: 1px solid #31708f;
     display: inline-block;
     width: 400px;
     height: 450px;
